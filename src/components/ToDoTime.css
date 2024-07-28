@@ -1,0 +1,22 @@
+.date {
+  color: rgb(149, 148, 148);
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.date__item {
+  margin: 0;
+}
+
+.date__item::after {
+  content: '.'
+}
+
+.date__item:last-child::after {
+  content: '';
+}
+
+.toDoItem__date {
+  /* justify-content: end; */
+}

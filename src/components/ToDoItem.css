@@ -1,0 +1,17 @@
+.toDoItem {
+  border-bottom: 1px solid #626262a4;
+
+}
+
+.toDoItem__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toDoItem__tags {
+  flex-grow: 1;
+}
+
+.toDoItem__bottom {
+  padding: 20px 0 10px 0;
+}
